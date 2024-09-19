@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>API Class</title>
+        <link rel="icon" href="./ZZZ Logo Fevi.png" type="image/x-icon">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body class="bg-gray-100 text-gray-900">
+
+<!---------------------------------- Header Section ------------------------------->
+    <header class="bg-purple-300 text-black font-semibold">
+        <div class="container mx-auto px-4 py-1">
+            <nav class="flex justify-between items-center">
+                <div class="flex items-center">
+                    <img src="./ZZZ Logo.png" alt="API Logo" class="h-10 mr-4"> 
+                    <div class="text-2xl font-bold">API</div>
+                </div>
+                <ul class="flex space-x-6">
+                    <li><a href="index.html" class="hover:text-red-500">Home</a></li>
+                    <li><a href="post.html" class="hover:text-red-500">Posts</a></li>
+                    <li><a href="comment.html" class="hover:text-red-500">Comments</a></li>
+                    <li><a href="album.html" class="hover:text-red-500">Albums</a></li>
+                    <li><a href="photo.html" class="hover:text-red-500">Photos</a></li>
+                    <li><a href="#" class="hover:text-red-500">To-do</a></li>
+                    <li><a href="user.html" class="hover:text-red-500">Users</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+<!------------------------------------ Main Content --------------------------------->
+    <main class="container mx-auto px-4 py-16">
+        <h2 class="text-center text-3xl font-semibold mb-8">All To do</h2>
+        <div id="post" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10"></div>
+    </main>
+
+<!----------------------------------- Footer Section -------------------------------->
+    <footer class="bg-purple-300 text-black py-2">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; <a href="#" class="text-blue-900 font-semibold hover:underline">MOMENUL.PRO</a> - 2024 All Rights Reserved | <a href="#" class="text-red-500 hover:underline">Privacy Policy</a></p>
+        </div>
+    </footer>
+
+
+<!-------------------------------- Back to Top Button ------------------------------>
+<button id="backToTopBtn" title="Go to top">↑ Top</button>
+
+    <script src="./index.js"></script>
+    <script src="./todos.js"></script>
+
+    
+
+</body>
+</html>
